@@ -1,0 +1,350 @@
+body {
+    font-family: Helvetica;
+    padding-top: 2px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    top: 0;
+    color: #004AAD;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #dde0e2;
+}
+
+section {
+    padding-top: 80px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 25px;
+}
+
+header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    color: #004AAD;
+    text-decoration: none;
+    padding: 2px 12px;
+}
+
+#navegacao {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo img {
+    padding-right: 10px;
+}
+
+.logo,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#botaoEntrar {
+    border: solid 2px #1A9047;
+    border-radius: 10px;
+    color: #2BC866;
+    background-color: white;
+    transition: 0.5s ease;
+    font-size: 18px;
+}
+
+#botaoEntrar:hover {
+    background-color: #1A9047;
+    color: white;
+    transform: scale(1.2)
+}
+
+#botaoCadastrar {
+    border: solid 2px #1A9047;
+    border-radius: 10px;
+    color: white;
+    background-color: #1A9047;
+    transition: 0.5s ease;
+    font-size: 18px;
+}
+
+#botaoCadastrar:hover {
+    background-color: white;
+    color: #1A9047;
+    transform: scale(1.2)
+}
+
+#botaoEntrar,
+#botaoCadastrar {
+    margin-left: 10px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#padroText1 {
+    color: #2BC866;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+#formRastrear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txtRastrear,
+#botaoRastrear {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 12px;
+
+}
+
+#txtRastrear {
+    margin-right: 10px;
+    padding-right: 250px;
+}
+
+#botaoRastrear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #808185;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+#botaoRastrear:hover {
+    transform: scale(1.1)
+}
+
+#imgRastrear {
+    height: 20px;
+    margin-right: 5px;
+}
+
+#imgBoxes {
+    margin-top: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.textFooter {
+    padding: 10px;
+}
+
+#padroText2 {
+    color: #2BC866;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.itens {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    padding: 50px;
+}
+
+.item h3 {
+    color: #2BC866;
+}
+
+.item p {
+    max-width: 350px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.downOport {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #2BC866;
+    margin-bottom: 50px;
+}
+
+#lblRastreio {
+    text-align: center;
+    max-width: 50%;
+}
+
+#botaoCadastrar1 {
+    border: 0px;
+    color: white;
+    background-color: #2BC866;
+    font-size: 12px;
+    padding: 14px;
+    ;
+    cursor: pointer;
+    border-radius: 4%;
+    transition: 0.5s ease;
+    font-weight: bold;
+}
+
+#botaoCadastrar1:hover {
+    transform: scale(1.1)
+}
+
+#padbody {
+    background-color: #2BC866;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.containers {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 150px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.container {
+    flex: 1;
+    margin: 20px;
+}
+
+.container h1 {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 35px;
+    text-align: justify;
+}
+
+.container p {
+    font-size: 13px;
+    color: #ffffff;
+    text-align: justify;
+    padding-top: 5px;
+    line-height: 1.7;
+}
+
+.imgEmpresas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+.imgEmpresas img {
+    width: 60px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#imgBack {
+    width: 350px;
+    height: auto;
+    margin-left: 0%;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.block {
+    flex: 1;
+    margin: 20px;
+    text-align: justify;
+}
+
+.block h1 {
+    font-size: 35px;
+    color: #2BC866;
+}
+
+.carrosel {
+    display: flex;
+    align-items: stretch;
+    padding-left: 320px;
+    padding-right: 320px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.blocos {
+    flex: 1;
+    text-align: left;
+    margin: 7px;
+    border: solid 2px #2BC866;
+    padding: 12px;
+}
+
+.blocos img {
+    margin-top: 35px;
+    width: 25px;
+    height: auto;
+}
+
+.blocos h3 {
+    color: #2BC866;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.blocos p {
+    font-size: 12px;
+    padding-top: 5px;
+    line-height: 1.4;
+}
+
+.blocos li {
+    font-size: 12px;
+    padding-top: 5px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.controle {
+    cursor: pointer;
+    font-size: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #1A9047;
+    font-weight: bolder;
+}

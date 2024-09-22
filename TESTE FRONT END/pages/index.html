@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Aqui no Head foi usado para implementar sua padronização de caracteres, style com seu diretório e titulo da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- Início do cabeçalho da página para realizar o desenvolvimento do menu de navegação -->
+    <header>
+        <!-- Menu de navegação -->
+        <nav>
+            <!-- Seção para o logo da empresa -->
+            <div class="logo">
+                <img src="../Images/icons8-entrega-rápida-48.png" alt="logo xpress">
+                <p> Rastreio Xpress </p>
+            </div>
+            <!-- navegação das páginas das empresas -->
+            <div id="navegacao">
+                <ul>
+                    <li class="nave-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nave-item">
+                        <a href="sobre.html">Sobre nós</a>
+                    </li>
+                    <li class="nave-item">
+                        <a href="parceiros.html">Parceiros</a>
+                    </li>
+                    <li class="nave-item">
+                        <a href="ajuda.html">Ajuda</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="botoes">
+                <!-- Botões para realização do login ou cadastro -->
+                <button id="botaoEntrar">Entrar</button>
+                <button id="botaoCadastrar">Cadastrar</button>
+            </div>
+        </nav>
+    </header>
+    <!-- corpo principal da página para cada tema requisitado -->
+    <section>
+        <p id="padroText1">Rastreie seu Pedido!</p>
+        <form action="" id="formRastrear">
+            <input type="text" placeholder="Código de rastreamento" id="txtRastrear">
+            <button id="botaoRastrear">
+                <img src="../Images/icons8-marcador-50.png" id="imgRastrear">RASTREAR</button>
+        </form>
+        <img src="../Images/boxes.svg" alt="Imagem retratando de caixas de rastreamento" id="imgBoxes">
+    </section>
+    <!-- Aqui foi desenvolvido o rodapé da página para sua identificação da empresa-->
+    <footer class="textFooter">
+        <p>&copy; 2024 Rastreio Xpress. Todos os direitos reservados.</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </footer>
+</body>
+
+</html>
